@@ -1,5 +1,6 @@
 export const calculateTotal = (items) => {
   return items.reduce((sum, item) => {
-    return sum + item.calculatePrice();
+    const itemPrice = item.calculatePrice();
+    return sum + itemPrice;
   }, 0);
 };
