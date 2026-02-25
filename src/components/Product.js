@@ -1,11 +1,16 @@
 class Product {
-  constructor(name, basePrice) {
+  constructor(name, basePrice, taxRate = 0) {
     this.name = name;
     this.basePrice = basePrice;
+    this.taxRate = taxRate;
   }
 
   calculatePrice() {
-    return this.basePrice;
+    return this.basePrice + this.getTax();
+  }
+
+  getTax() {
+    return this.basePrice * this.taxRate;
   }
 }
 
