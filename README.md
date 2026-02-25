@@ -2,6 +2,13 @@
 
 A multi-file merge conflict scenario simulating two parallel feature teams working on an e-commerce application.
 
+## Repositories
+
+| Repo | Description |
+|------|-------------|
+| [merge-demo](https://github.com/pascal-maker/merge-demo) | Basic example — HTML/CSS color conflict |
+| [merge-demo-project](https://github.com/pascal-maker/merge-demo-project) | Advanced challenge — multi-file e-commerce conflict |
+
 ## Repository Structure
 
 ```
